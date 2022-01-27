@@ -1,0 +1,36 @@
+/*
+  Project name(项目名称)：CSS_border 
+  File name(文件名): t2
+  Author(作者）: mao
+  Author QQ：1296193245
+  GitHub：https://github.com/maomao124/
+  Date(创建日期)： 2022/1/27 
+  Time(创建时间)： 19:55
+  Version(版本): 1.0
+  Description(描述)： 无
+ */
+
+
+p {
+    width: 100px;
+    margin: 5px;
+    float: left;
+    border-style: solid;
+    border-width: 5px;
+    text-align: center;
+}
+
+.one {
+    border-color: green;
+}
+
+.two {
+    border-color: #0000CC;
+}
+
+.three {
+    border-top-color: #009900; /*绿色*/
+    border-right-color: #FF0000; /*红色*/
+    border-bottom-color: #330000; /*黑色*/
+    border-left-color: #0000CC; /*蓝色*/
+}

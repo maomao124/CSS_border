@@ -1,0 +1,38 @@
+/*
+  Project name(项目名称)：CSS_border 
+  File name(文件名): t1
+  Author(作者）: mao
+  Author QQ：1296193245
+  GitHub：https://github.com/maomao124/
+  Date(创建日期)： 2022/1/27 
+  Time(创建时间)： 19:52
+  Version(版本): 1.0
+  Description(描述)： 无
+ */
+
+p {
+    width: 100px;
+    margin: 5px;
+    float: left;
+    border-style: solid;
+    text-align: center;
+}
+
+.one {
+    border-width: thin medium thick;
+}
+
+.two {
+    border-width: 2px 5px;
+}
+
+.three {
+    border-top-width: 1px;
+    border-right-width: 2px;
+    border-bottom-width: 3px;
+    border-left-width: 4px;
+}
+
+.four {
+    border-width: thin;
+}

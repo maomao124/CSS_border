@@ -1,0 +1,43 @@
+/*
+  Project name(项目名称)：CSS_border 
+  File name(文件名): t4
+  Author(作者）: mao
+  Author QQ：1296193245
+  GitHub：https://github.com/maomao124/
+  Date(创建日期)： 2022/1/27 
+  Time(创建时间)： 20:01
+  Version(版本): 1.0
+  Description(描述)： 无
+ */
+
+
+p {
+    width: 0;
+    margin: 5px;
+    float: left;
+
+}
+
+.top {
+    border: 50px solid;
+    border-color: red transparent transparent;
+}
+
+.bottom {
+    border-width: 0 50px 50px;
+    border-style: solid;
+    border-color: transparent transparent red;
+}
+
+.left {
+    border-top: 50px solid transparent;
+    border-left: 50px solid black;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+}
+
+.right {
+    border-width: 50px 50px 50px 0;
+    border-style: solid;
+    border-color: transparent red transparent transparent;
+}
